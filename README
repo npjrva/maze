@@ -1,0 +1,15 @@
+Simple maze generator.
+
+To build:
+  ./build.sh
+
+To run:
+  ./maze.exe [width height] [breadcrumbs] [seed] [image]
+
+  width height  - dimensions of maze, default 50x50
+  breadcrumbs   - if non-zero, show the maze solution with '.'s
+  seed          - RNG seed (for repeatability), or seed with time if absent or -1
+  image         - path of a PBM image to mask off additional obstacles in maze
+
+
+
